@@ -1,3 +1,5 @@
 .ipynb_checkpoints
 .DS_Store
 venv/
+
+outputs/sweep_results_full.npz
