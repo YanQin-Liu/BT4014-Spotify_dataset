@@ -7,7 +7,7 @@ Final project for BT4014 (NUS, AY2025/26 Sem 2). Frames Spotify song recommendat
 1. [01_data_preparation.ipynb](01_data_preparation.ipynb) - clean the raw song dataset; extract user playlists.
 2. [02_feature_diagnostics.ipynb](02_feature_diagnostics.ipynb) - VIF and mutual information to select 7 audio features.
 3. [03_feature_engineering.ipynb](03_feature_engineering.ipynb) - build 805 user taste profiles (playlist-mean of features); export tempo normalisation params.
-4. [04_parameter_tuning.ipynb](04_parameter_tuning.ipynb) - pick reward function, K for K-means, and all 7 bandit hyperparameters; paired t-tests and window-sensitivity checks.
+4. [04_parameter_tuning (Optional).ipynb](04_parameter_tuning%20%28Optional%29.ipynb) - pick reward function, K for K-means, and all 7 bandit hyperparameters; paired t-tests and window-sensitivity checks. Optional: its decisions are already hard-coded into 05's registry, so 01 → 02 → 03 → 05 is enough to reproduce the final results.
 5. [05_bandit_experiments.ipynb](05_bandit_experiments.ipynb) - run all 12 algorithms and produce the final comparison.
 
 ## Folders

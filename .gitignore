@@ -2,4 +2,7 @@
 .DS_Store
 venv/
 
-outputs/sweep_results_full.npz
+.run_log.txt
+.run_nohup.txt
+.run_output.txt
+.run_error.txt
